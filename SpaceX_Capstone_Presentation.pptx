@@ -1,0 +1,545 @@
+[Content_Types].xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
+  <Default Extension="xml" ContentType="application/xml"/>
+  <Default Extension="png" ContentType="image/png"/>
+  <Override PartName="/ppt/presentation.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml"/>
+  <Override PartName="/ppt/slideMasters/slideMaster1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml"/>
+  <Override PartName="/ppt/slides/slide1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml"/>
+  <!-- Add more slides as needed -->
+</Types>
+
+_rels/.rels
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="/ppt/presentation.xml"/>
+</Relationships>
+
+ppt/presentation.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:presentation xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:sldMasterIdLst>
+    <p:sldMasterId id="2147483648" r:id="rId1"/>
+  </p:sldMasterIdLst>
+  <p:sldIdLst>
+    <p:sldId id="256" r:id="rId2"/>
+    <p:sldId id="257" r:id="rId3"/>
+    <p:sldId id="258" r:id="rId4"/>
+    <p:sldId id="259" r:id="rId5"/>
+    <p:sldId id="260" r:id="rId6"/>
+    <p:sldId id="261" r:id="rId7"/>
+    <p:sldId id="262" r:id="rId8"/>
+    <p:sldId id="263" r:id="rId9"/>
+    <p:sldId id="264" r:id="rId10"/>
+    <p:sldId id="265" r:id="rId11"/>
+    <p:sldId id="266" r:id="rId12"/>
+    <p:sldId id="267" r:id="rId13"/>
+    <p:sldId id="268" r:id="rId14"/>
+  </p:sldIdLst>
+</p:presentation>
+
+ppt/slides/slide1.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>SpaceX Falcon 9 First Stage Landing Prediction</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>A Data Science Journey</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide2.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Executive Summary</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Project Goal: Predict Falcon 9 first stage landing success</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Business Value: $103M cost savings per launch through reusability</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Methods: Data collection (API + Web Scraping), EDA, ML modeling</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide3.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Introduction</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Problem Statement:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• SpaceX launches cost $62M vs competitors' $165M</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• First stage = 70% of launch cost</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Successful landing enables reuse and major cost savings</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide4.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Data Collection & Wrangling</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Data Sources:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• SpaceX API - Launch data</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Wikipedia web scraping - Historical records</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Data Processing:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Feature engineering</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Missing value handling</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Data cleaning and standardization</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide5.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Exploratory Data Analysis Methodology</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Tools Used:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• SQL for data querying and analysis</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Python (Pandas, Matplotlib) for data manipulation</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Plotly Dash for interactive visualizations</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Folium for geographic mapping</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide6.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Visualization Results (1/2)</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Key Findings:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Success rate trends over time</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Launch site performance analysis</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Payload mass impact on success</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Insert visualization images here -->
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide7.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Visualization Results (2/2)</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Additional Insights:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Orbit type distribution</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Booster version performance</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Customer diversity analysis</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Insert visualization images here -->
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide8.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>SQL Analysis Results</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Key Findings:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Success rates by launch site</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Payload impact analysis</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Booster reuse statistics</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Temporal patterns</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Insert SQL query results and visualizations -->
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide9.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Interactive Map Analysis</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Folium Map Features:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Launch site locations</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Success rates by location</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Distance analysis</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Insert Folium map screenshots -->
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide10.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Interactive Dashboard</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Plotly Dash Features:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Real-time filtering</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Interactive visualizations</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Key performance metrics</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Insert dashboard screenshots -->
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide11.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Machine Learning Results</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Model Performance:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Accuracy metrics</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Feature importance</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Model comparison</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Insert ML results and visualizations -->
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide12.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Conclusions</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Key Findings:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Landing success factors identified</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Cost savings potential quantified</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Recommendations for future launches</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+</p:sld>
+
+ppt/slides/slide13.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:sp>
+        <p:txBody>
+          <p:p>
+            <p:r>
+              <p:t>Innovative Insights</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>Novel Discoveries:</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Unexpected patterns in landing success</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• New correlations identified</p:t>
+            </p:r>
+          </p:p>
+          <p:p>
+            <p:r>
+              <p:t>• Future research directions</p:t>
+            </p:r>
+          </p:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+</p:sld> 

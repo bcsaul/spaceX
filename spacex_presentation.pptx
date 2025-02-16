@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:presentation xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+    <p:sldMasterIdLst>
+        <p:sldMasterId id="2147483648" r:id="rId1"/>
+    </p:sldMasterIdLst>
+    <p:sldIdLst>
+        <p:sldId id="256" r:id="rId2"/>
+        <p:sldId id="257" r:id="rId3"/>
+        <p:sldId id="258" r:id="rId4"/>
+        <p:sldId id="259" r:id="rId5"/>
+        <p:sldId id="260" r:id="rId6"/>
+        <p:sldId id="261" r:id="rId7"/>
+        <p:sldId id="262" r:id="rId8"/>
+        <p:sldId id="263" r:id="rId9"/>
+        <p:sldId id="264" r:id="rId10"/>
+        <p:sldId id="265" r:id="rId11"/>
+        <p:sldId id="266" r:id="rId12"/>
+        <p:sldId id="267" r:id="rId13"/>
+    </p:sldIdLst>
+    <p:sldSz cx="9144000" cy="6858000"/>
+    <p:notesSz cx="6858000" cy="9144000"/>
+    <p:defaultTextStyle>
+        <!-- Default text style settings -->
+    </p:defaultTextStyle>
+</p:presentation>
+
+<!-- Slide 1: Title -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>SpaceX Falcon 9 First Stage Landing Prediction</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:subTitle>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>A Data Science Journey</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:subTitle>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 2: Executive Summary -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Executive Summary</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>• Project Goal: Predict Falcon 9 first stage landing success
+• Business Value: Cost savings through reusability ($62M vs $165M)
+• Methods: Data collection (API/Web Scraping), EDA, SQL, Visualization, ML
+• Problem Statement: Determine landing probability for competitive bidding</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 3: Introduction -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Introduction</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>• SpaceX revolutionizes space industry with reusable rockets
+• First stage landing crucial for cost reduction
+• Data science approach to predict landing success
+• Project scope: Historical launch data analysis and prediction model</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 4: Data Collection & Wrangling -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Data Collection & Wrangling</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>• Data Sources:
+  - SpaceX REST API
+  - Wikipedia web scraping
+• Data Processing:
+  - Feature engineering
+  - Missing value handling
+  - Data cleaning and standardization
+• Dataset Creation:
+  - Merged multiple data sources
+  - Created comprehensive launch database</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 5: Exploratory Data Analysis Methodology -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Exploratory Data Analysis Methodology</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Tools Used:
+• SQL for data querying and analysis
+• Python with Pandas and Matplotlib
+• Plotly Dash for interactive visualizations
+• Folium for geographical mapping</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 6: Visualization Results (1/2) -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Visualization Results (1/2)</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Key Findings:
+• Success rate trends over time
+• Launch site performance analysis
+• Payload mass impact on success
+• Correlation between variables</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 7: Visualization Results (2/2) -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Visualization Results (2/2)</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Additional Insights:
+• Orbit type distribution
+• Booster version performance
+• Customer diversity analysis
+• Temporal patterns</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 8: SQL Analysis Results -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>SQL Analysis Results</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Key Findings:
+• Success rates by launch site
+• Payload impact analysis
+• Booster reuse statistics
+• Temporal patterns in launches</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 9: Interactive Map Analysis -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Interactive Map Analysis</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Folium Map Features:
+• Launch site locations
+• Success rates by location
+• Distance analysis
+• Geographical patterns</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 10: Interactive Dashboard -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Interactive Dashboard</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Plotly Dash Features:
+• Real-time filtering
+• Interactive visualizations
+• Key performance metrics
+• Trend analysis tools</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 11: Machine Learning Results -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Machine Learning Results</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Model Performance:
+• Accuracy metrics
+• Feature importance
+• Model comparison
+• Prediction reliability</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 12: Conclusions -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Conclusions</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Key Findings:
+• Landing success factors identified
+• Cost savings potential quantified
+• Recommendations for future launches
+• Model applications for decision-making</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld>
+
+<!-- Slide 13: Innovative Insights -->
+<p:sld>
+    <p:cSld>
+        <p:spTree>
+            <p:title>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Innovative Insights</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:title>
+            <p:body>
+                <p:txBody>
+                    <a:p>
+                        <a:r>
+                            <a:t>Novel Discoveries:
+• Unexpected patterns in landing success
+• New correlations discovered
+• Future research directions
+• Industry implications</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:body>
+        </p:spTree>
+    </p:cSld>
+</p:sld> 
